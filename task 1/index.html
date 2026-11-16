@@ -1,0 +1,81 @@
+<!-- Name:mohamed mahmoud elserbeny Id : 225105496  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohamed Elsherbeny</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="title-area">
+      <h1>Mohamed Elsherbeny</h1>
+    </div>
+
+    <nav class="top-bar">
+      <span class="nav-name">Mohamed M. Elsherbeny</span>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="profile-row">
+      <img src="images/me.jpg" alt="Mohamed Elsherbeny">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I am a second-year Computer Science student at New Mansoura University, planning to specialize in Software Engineering. I enjoy building desktop applications in C# and learning modern web development.
+        </p>
+        <button id="theme-toggle">Dark Mode</button>
+      </div>
+    </section>
+
+    <section id="skills" class="cards-row">
+      <div class="card">
+        <h3>Web Development</h3>
+        <p>Writing structured HTML, responsive CSS layouts, and interactive JavaScript from scratch.</p>
+      </div>
+
+      <div class="card">
+        <h3>Desktop Software</h3>
+        <p>Developing Windows Forms and WPF applications using C# for practical business workflows.</p>
+      </div>
+
+      <div class="card">
+        <h3>Problem Solving</h3>
+        <p>Focusing on data structures, clean logic, and software engineering fundamentals.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-area">
+      <h2>Get in Touch</h2>
+      <form id="contact-form">
+        <div class="field">
+          <label for="visitor-name">Name</label>
+          <input type="text" id="visitor-name" name="visitor-name" required>
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+      <p id="greeting-msg"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Mohamed Mahmoud Elsherbeny. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
