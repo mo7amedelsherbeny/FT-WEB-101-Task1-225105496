@@ -144,7 +144,7 @@ button:hover {
   border: 1px solid var(--border-color);
   border-radius: 10px;
   padding: 24px;
-  transition: background-color 0.2s;
+  transition: transform 0.15s ease-out, background-color 0.2s ease, opacity 0.6s ease;
 }
 
 .card:hover {
@@ -225,4 +225,15 @@ footer {
   .profile-row {
     text-align: center;
   }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.6s ease, transform 0.6s ease, background-color 0.25s ease;
+}
+
+.reveal.show {
+  opacity: 1;
+  transform: translateY(0);
 }
