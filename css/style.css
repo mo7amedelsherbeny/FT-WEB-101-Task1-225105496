@@ -84,15 +84,14 @@ main {
   padding: 0 20px;
 }
 
-.profile-row {
-  display: flex;
-  align-items: center;
-  gap: 32px;
-  background-color: var(--surface-color);
-  border: 1px solid var(--border-color);
-  border-radius: 10px;
-  padding: 32px;
-  margin-bottom: 30px;
+.profile-row img {
+  width: 170px;
+  height: 215px;
+  flex-shrink: 0;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 14px;
+  border: 2px solid var(--border-color);
 }
 
 .profile-row img {
